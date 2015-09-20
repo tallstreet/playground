@@ -1,0 +1,17 @@
+<div>
+  <div className="input-group">
+    <span className="input-group-addon" id="basic-addon1">@</span>
+    <input type="text" className="form-control" placeholder="Username" aria-describedby="basic-addon1" />
+  </div>
+  
+  <div className="input-group">
+    <input type="text" className="form-control" placeholder="Recipient's username" aria-describedby="basic-addon2" />
+    <span className="input-group-addon" id="basic-addon2">@example.com</span>
+  </div>
+  
+  <div className="input-group">
+    <span className="input-group-addon">$</span>
+    <input type="text" className="form-control" aria-label="Amount (to the nearest dollar)" />
+    <span className="input-group-addon">.00</span>
+  </div>
+</div>
